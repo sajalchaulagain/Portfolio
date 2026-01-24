@@ -918,6 +918,7 @@ section {
     line-height: 1.8;
     opacity: 0;
     animation: fadeIn 0.8s ease 1.2s forwards;
+    font-family:cursive;
 }
 
 .cta-buttons {
@@ -1278,6 +1279,7 @@ section {
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 0.8s ease forwards;
+    font-family:cursive;
 }
 
 .animated-paragraph:nth-child(1) {
@@ -1345,6 +1347,7 @@ section {
 .highlight-content p {
     color: var(--gray-color);
     font-size: 0.9rem;
+    font-family:cursive;
 }
 
 .about-stats {
@@ -1697,6 +1700,7 @@ section {
     color: var(--gray-color);
     font-size: 0.9rem;
     margin-bottom: 10px;
+    font-family: cursive;
 }
 
 .skill-level {
@@ -1872,6 +1876,7 @@ section {
     color: var(--gray-color);
     margin-bottom: 20px;
     line-height: 1.7;
+    font-family: cursive;
 }
 
 .project-tech {
