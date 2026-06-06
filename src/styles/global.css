@@ -2327,7 +2327,7 @@ section {
 
 .footer-links a,
 .footer-links button {
-    color: white;
+    color: var(--dark-color);
     text-decoration: none;
     transition: var(--transition);
     position: relative;
