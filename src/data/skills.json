@@ -1,0 +1,64 @@
+{
+  "techSkills": [
+    {
+      "id": 1,
+      "name": "HTML/CSS/JavaScript",
+      "icon": "fab fa-html5",
+      "percent": 85
+    },
+    {
+      "id": 2,
+      "name": "Python (Basic)",
+      "icon": "fab fa-python",
+      "percent": 70
+    },
+    {
+      "id": 3,
+      "name": "Video Editing",
+      "icon": "fas fa-video",
+      "percent": 80
+    },
+    {
+      "id": 4,
+      "name": "MS Office Suite",
+      "icon": "fas fa-file-excel",
+      "percent": 90
+    },
+    {
+      "id": 5,
+      "name": "Graphic Design",
+      "icon": "fas fa-keyboard",
+      "percent": 80
+    }
+  ],
+  "softSkills": [
+    {
+      "id": 1,
+      "name": "Communication",
+      "icon": "fas fa-comments",
+      "description": "Effective verbal and written communication abilities",
+      "level": 4
+    },
+    {
+      "id": 2,
+      "name": "Creativity",
+      "icon": "fas fa-palette",
+      "description": "Innovative thinking and creative problem-solving",
+      "level": 5
+    },
+    {
+      "id": 3,
+      "name": "Problem-Solving",
+      "icon": "fas fa-lightbulb",
+      "description": "Analytical approach to identify and resolve issues",
+      "level": 4
+    },
+    {
+      "id": 4,
+      "name": "Teamwork",
+      "icon": "fas fa-handshake",
+      "description": "Collaborative mindset and effective team participation",
+      "level": 5
+    }
+  ]
+}

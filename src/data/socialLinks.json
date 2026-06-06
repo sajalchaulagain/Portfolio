@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "label": "Facebook",
+    "url": "https://www.facebook.com/sajal.chaulagain.5",
+    "icon": "fab fa-facebook-f",
+    "ariaLabel": "Facebook"
+  },
+  {
+    "id": 2,
+    "label": "Instagram",
+    "url": "https://www.instagram.com/chaulagain.sajal/",
+    "icon": "fab fa-instagram",
+    "ariaLabel": "Instagram"
+  },
+  {
+    "id": 3,
+    "label": "LinkedIn",
+    "url": "https://www.linkedin.com/in/sajal-chaulagain/",
+    "icon": "fab fa-linkedin",
+    "ariaLabel": "LinkedIn"
+  },
+  {
+    "id": 4,
+    "label": "GitHub",
+    "url": "https://github.com/Sajalchaulagin",
+    "icon": "fab fa-github",
+    "ariaLabel": "GitHub"
+  },
+  {
+    "id": 5,
+    "label": "Youtube",
+    "url": "https://www.youtube.com/@mr.chaule",
+    "icon": "fab fa-youtube",
+    "ariaLabel": "YouTube"
+  },
+  {
+    "id": 6,
+    "label": "Email",
+    "url": "mailto:chaulagainsajal94@gmail.com",
+    "icon": "fas fa-envelope",
+    "ariaLabel": "Email"
+  }
+]
