@@ -16,8 +16,8 @@ import { useEffect } from "react";
 
 // STATS: update count and label here
 const STATS = [
-  { count: 7,   label: "Projects" },
-  { count: 1,   label: "Years Experience" },
+  { count: 7, label: "Projects" },
+  { count: 1, label: "Years Experience" },
   { count: 100, label: "% Dedication" },
 ];
 
@@ -59,23 +59,52 @@ function animateCount(el, target, duration = 2000) {
 
 export default function About() {
   useEffect(() => {
-    const statsEls = document.querySelectorAll(".about-section .stat-number");
-    let animated = false;
+    const statsEls = Array.from(
+      document.querySelectorAll(".about-section .stat-number")
+    );
+    let animatedCount = 0;
+    let observer = null;
 
-    function onScroll() {
-      if (animated) return;
-      statsEls.forEach((el) => {
-        const rect = el.getBoundingClientRect();
-        if (rect.top < window.innerHeight * 0.85) {
-          const target = parseInt(el.dataset.count, 10);
-          animateCount(el, target);
-          animated = true;
-        }
-      });
+    const animateStat = (el) => {
+      if (el.dataset.animated === "true") return;
+      const target = parseInt(el.dataset.count, 10);
+      animateCount(el, target);
+      el.dataset.animated = "true";
+      animatedCount += 1;
+
+      if (animatedCount === statsEls.length && observer) {
+        observer.disconnect();
+      }
+    };
+
+    if (window.IntersectionObserver) {
+      observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              animateStat(entry.target);
+            }
+          });
+        },
+        { threshold: 0.4 }
+      );
+
+      statsEls.forEach((el) => observer.observe(el));
+      return () => observer && observer.disconnect();
     }
 
+    const onScroll = () => {
+      statsEls.forEach((el) => {
+        if (el.dataset.animated === "true") return;
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight * 0.85) {
+          animateStat(el);
+        }
+      });
+    };
+
     window.addEventListener("scroll", onScroll, { passive: true });
-    onScroll(); // run on mount in case already in view
+    onScroll();
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
