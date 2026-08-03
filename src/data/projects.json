@@ -122,5 +122,30 @@
         "icon": "fab fa-github"
       }
     ]
-  }
+  },
+
+  {
+  "id": 8,
+  "title": "Chaule Furniture - React E-commerce Landing Page",
+  "year": "2026",
+  "category": "React.js Learning Project",
+  "description": "I created this project while learning React.js and Tailwind CSS. It helped me practice reusable components, props, responsive design, and organizing a React project in a clean way. It also gave me a better understanding of responsive design and modern frontend development.",
+  "image": "chaule-furniture.jpeg",
+  "fallbackIcon": "fa-couch",
+  "tags": [
+    "React.js",
+    "Tailwind CSS",
+    "JavaScript",
+    "Reusable Components",
+    "Vite",
+    "Frontend Development"
+  ],
+  "links": [
+    {
+      "label": "View Website",
+      "url": "https://chaule-furniture.netlify.app/",
+      "icon": "fa-external-link-alt"
+    }
+  ]
+}
 ]
