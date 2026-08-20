@@ -16,7 +16,7 @@ import { useEffect } from "react";
 
 // STATS: update count and label here
 const STATS = [
-  { count: 7, label: "Projects" },
+  { count: 9, label: "Projects" },
   { count: 1, label: "Years Experience" },
   { count: 100, label: "% Dedication" },
 ];

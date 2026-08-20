@@ -7,7 +7,13 @@
     "description": "I built this project to explore how IoT devices work in real-world situations. By connecting sensors with an ESP32, I was able to collect air quality, temperature, and humidity data and display it on a dashboard. It was a great learning experience that helped me understand sensors, data transmission, and smart monitoring systems.",
     "image": "sensors pic.jpg",
     "fallbackIcon": "fa-wind",
-    "tags": ["IoT", "Sensors", "Dashboard", "Real-time", "ESP32"],
+    "tags": [
+      "IoT",
+      "Sensors",
+      "Dashboard",
+      "Real-time",
+      "ESP32"
+    ],
     "links": [
       {
         "label": "Presentation -> Introduction",
@@ -29,7 +35,13 @@
     "description": "This design was created as a practice project to improve my graphic design skills. I experimented with colors, typography, and layout techniques to make the pamphlet visually attractive while keeping the information easy to read. It gave me hands-on experience in creating promotional materials and understanding basic branding concepts.",
     "image": "cup_cake pamplet.jpg",
     "fallbackIcon": "fa-palette",
-    "tags": ["Graphic Design", "Pamphlet", "Branding", "Typography", "Canva / Photoshop"],
+    "tags": [
+      "Graphic Design",
+      "Pamphlet",
+      "Branding",
+      "Typography",
+      "Canva / Photoshop"
+    ],
     "links": [
       {
         "label": "View Design",
@@ -46,7 +58,13 @@
     "description": "This design was created to practice food branding and promotional design. I focused on making the menu visually appealing by highlighting key items, organizing information clearly, and using colors that grab attention. Through this project, I improved my understanding of layout design, visual hierarchy, and customer-focused marketing materials.",
     "image": "food pamplet.jpg",
     "fallbackIcon": "fa-palette",
-    "tags": ["Graphic Design", "Pamphlet", "Food Branding", "Poster Design", "Canva / Photoshop"],
+    "tags": [
+      "Graphic Design",
+      "Pamphlet",
+      "Food Branding",
+      "Poster Design",
+      "Canva / Photoshop"
+    ],
     "links": [
       {
         "label": "View Design",
@@ -63,7 +81,14 @@
     "description": "I designed this poster as a product promotion project for a sneaker brand. The goal was to make the product stand out through strong typography, creative composition, and eye catching visuals. While working on it, I explored different design techniques to create depth, improve product presentation, and build a more professional looking advertisement.",
     "image": "sneakers poster.jpg",
     "fallbackIcon": "fa-palette",
-    "tags": ["Graphic Design", "Poster Design", "Product Promotion", "Branding", "Typography", "Canva / Photoshop"],
+    "tags": [
+      "Graphic Design",
+      "Poster Design",
+      "Product Promotion",
+      "Branding",
+      "Typography",
+      "Canva / Photoshop"
+    ],
     "links": [
       {
         "label": "View Design",
@@ -80,7 +105,14 @@
     "description": "Ever played a game where everyone seems suspicious? 😅 This web based word game challenges players to identify the imposter while keeping their own clues subtle. Building it was a fun way to learn JavaScript, manage game logic, and create an engaging experience that friends can enjoy together.",
     "image": "imposter-word-game.png",
     "fallbackIcon": "fa-gamepad",
-    "tags": ["Web Game", "HTML", "CSS", "JavaScript", "Game Logic", "UI/UX Design"],
+    "tags": [
+      "Web Game",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Game Logic",
+      "UI/UX Design"
+    ],
     "links": [
       {
         "label": "View Website",
@@ -97,7 +129,14 @@
     "description": "Not every project needs to solve a big problem sometimes it's just about creating something meaningful. This website was built as a creative Valentine's themed project featuring animations, interactive elements, and a personalized experience designed to make someone smile.",
     "image": "valentine.png",
     "fallbackIcon": "fa-heart",
-    "tags": ["Romantic Website", "HTML", "CSS", "JavaScript", "Animations", "UI/UX Design"],
+    "tags": [
+      "Romantic Website",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Animations",
+      "UI/UX Design"
+    ],
     "links": [
       {
         "label": "View Website",
@@ -114,7 +153,13 @@
     "description": "I built this project while learning C++ and object-oriented programming. The system simulates basic banking operations such as account creation, deposits, withdrawals, and record management using file storage. It was one of the projects that helped me connect programming concepts with a real-world use case.",
     "image": "bank-account-mangement.png",
     "fallbackIcon": "fa-university",
-    "tags": ["C++", "OOP", "File Handling", "Console Application", "Data Structures"],
+    "tags": [
+      "C++",
+      "OOP",
+      "File Handling",
+      "Console Application",
+      "Data Structures"
+    ],
     "links": [
       {
         "label": "View Source Code",
@@ -123,27 +168,57 @@
       }
     ]
   },
+  {
+    "id": 8,
+    "title": "Chaule Furniture - React E-commerce Landing Page",
+    "year": "2026",
+    "category": "React.js Learning Project",
+    "description": "I created this project while learning React.js and Tailwind CSS. It helped me practice reusable components, props, responsive design, and organizing a React project in a clean way. It also gave me a better understanding of responsive design and modern frontend development.",
+    "image": "chaule-furniture.jpeg",
+    "fallbackIcon": "fa-couch",
+    "tags": [
+      "React.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "Reusable Components",
+      "Vite",
+      "Frontend Development"
+    ],
+    "links": [
+      {
+        "label": "View Website",
+        "url": "https://chaule-furniture.netlify.app/",
+        "icon": "fa-external-link-alt"
+      }
+    ]
+  },
 
   {
-  "id": 8,
-  "title": "Chaule Furniture - React E-commerce Landing Page",
+  "id": 9,
+  "title": "Movie Watchlist & Movie Explorer",
   "year": "2026",
-  "category": "React.js Learning Project",
-  "description": "I created this project while learning React.js and Tailwind CSS. It helped me practice reusable components, props, responsive design, and organizing a React project in a clean way. It also gave me a better understanding of responsive design and modern frontend development.",
-  "image": "chaule-furniture.jpeg",
-  "fallbackIcon": "fa-couch",
+  "category": "React.js Project",
+ "description": "A movie-focused React project built to practice API integration, CRUD operations, routing, and responsive UI design through a watchlist and movie browsing experience.",
+  "image": "movie-explorer.jpeg",
+  "fallbackIcon": "fa-film",
   "tags": [
     "React.js",
-    "Tailwind CSS",
     "JavaScript",
-    "Reusable Components",
-    "Vite",
+    "API Integration",
+    "CRUD",
+    "React Router",
+    "Responsive Design",
     "Frontend Development"
   ],
   "links": [
     {
-      "label": "View Website",
-      "url": "https://chaule-furniture.netlify.app/",
+      "label": "Movie Watchlist",
+      "url": "https://movie-watchlist-tawny.vercel.app/",
+      "icon": "fa-external-link-alt"
+    },
+    {
+      "label": "Movie Explorer",
+      "url": "https://chaule-movies-file.netlify.app/",
       "icon": "fa-external-link-alt"
     }
   ]
