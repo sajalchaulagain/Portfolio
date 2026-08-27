@@ -222,5 +222,31 @@
       "icon": "fa-external-link-alt"
     }
   ]
+},
+
+{
+  "id": 10,
+  "title": "Discover Nepal - Tourism Website UI/UX Design",
+  "year": "2026",
+  "category": "UI/UX Design",
+  "description": "A tourism website concept designed to help people discover Nepal through its districts, destinations, and experiences. I focused on creating a clean, simple, and easy-to-use experience with clear navigation and engaging visuals.",
+  "image": "my_uiux_certificate.jpg",
+  "fallbackIcon": "fa-compass",
+  "tags": [
+    "UI/UX Design",
+    "Figma",
+    "Tourism Website",
+    "User Experience",
+    "Information Architecture",
+    "Prototyping",
+    "Visual Design"
+  ],
+  "links": [
+    {
+      "label": "View Figma Design",
+      "url": "https://www.figma.com/proto/0b64s994YB79b1XR8t52zQ/Discover-Nepal?node-id=39-4&p=f&t=SmFUkPlVSVr1TWfH-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=39%3A4",
+      "icon": "fa-external-link-alt"
+    }
+  ]
 }
 ]
