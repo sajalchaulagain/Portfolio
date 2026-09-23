@@ -248,5 +248,33 @@
       "icon": "fa-external-link-alt"
     }
   ]
+},
+
+{
+  "id": 11,
+  "title": "CliniX - Smart Healthcare Companion App",
+  "year": "2026",
+  "category": "Flutter Mobile App",
+  "description": "A complete healthcare companion app I built it in a 3-day college hackathon — now publicly downloadable! It includes an AI medicine scanner (snap a pill, get analysis), an AI health assistant, blood bank stock finder, donor directory, hospital locator, and real medicine reminder notifications. The Flutter frontend talks to a FastAPI backend deployed on Render, secured with Firebase Authentication. I even set up CI so every release auto-builds the APK — and the app itself prompts users when a new version is available.",
+  "image": "clinix.png",
+  "fallbackIcon": "fa-heartbeat",
+  "tags": [
+    "Flutter",
+    "Dart",
+    "FastAPI",
+    "Firebase Auth",
+    "Riverpod",
+    "REST API",
+    "OpenRouter AI",
+    "Android APK",
+    "GitHub Actions CI"
+  ],
+  "links": [
+    {
+      "label": "Download Android App (APK)",
+      "url": "https://github.com/sajalchaulagain/clinix/releases/latest/download/CliniX.apk",
+      "icon": "fa-download"
+    }
+  ]
 }
 ]
