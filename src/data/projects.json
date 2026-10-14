@@ -192,89 +192,86 @@
       }
     ]
   },
-
   {
-  "id": 9,
-  "title": "Movie Watchlist & Movie Explorer",
-  "year": "2026",
-  "category": "React.js Project",
- "description": "A movie-focused React project built to practice API integration, CRUD operations, routing, and responsive UI design through a watchlist and movie browsing experience.",
-  "image": "movie-explorer.jpeg",
-  "fallbackIcon": "fa-film",
-  "tags": [
-    "React.js",
-    "JavaScript",
-    "API Integration",
-    "CRUD",
-    "React Router",
-    "Responsive Design",
-    "Frontend Development"
-  ],
-  "links": [
-    {
-      "label": "Movie Watchlist",
-      "url": "https://movie-watchlist-tawny.vercel.app/",
-      "icon": "fa-external-link-alt"
-    },
-    {
-      "label": "Movie Explorer",
-      "url": "https://chaule-movies-file.netlify.app/",
-      "icon": "fa-external-link-alt"
-    }
-  ]
-},
-
-{
-  "id": 10,
-  "title": "Discover Nepal - Tourism Website UI/UX Design",
-  "year": "2026",
-  "category": "UI/UX Design",
-  "description": "A tourism website concept designed to help people discover Nepal through its districts, destinations, and experiences. I focused on creating a clean, simple, and easy-to-use experience with clear navigation and engaging visuals.",
-  "image": "my_uiux_certificate.jpg",
-  "fallbackIcon": "fa-compass",
-  "tags": [
-    "UI/UX Design",
-    "Figma",
-    "Tourism Website",
-    "User Experience",
-    "Information Architecture",
-    "Prototyping",
-    "Visual Design"
-  ],
-  "links": [
-    {
-      "label": "View Figma Design",
-      "url": "https://www.figma.com/proto/0b64s994YB79b1XR8t52zQ/Discover-Nepal?node-id=39-4&p=f&t=SmFUkPlVSVr1TWfH-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=39%3A4",
-      "icon": "fa-external-link-alt"
-    }
-  ]
-},
-
-{
-  "id": 11,
-  "title": "CliniX - Smart Healthcare Companion App",
-  "year": "2026",
-  "category": "Flutter Mobile App",
-  "description": "Healthcare companion app with AI medicine scanning, health assistant, blood bank & donor finder, hospital locator, and medicine reminders. Built with Flutter, FastAPI, and Firebase.",
-  "image": "clinix.jpeg",
-  "fallbackIcon": "fa-heartbeat",
-  "tags": [
-    "Flutter",
-    "Dart",
-    "FastAPI",
-    "Firebase Auth",
-    "Riverpod",
-    "REST API",
-    "OpenRouter AI",
-    "Android APK",
-    "GitHub Actions CI"
-  ],
-  "links": [
-    {
-      "label": "Download Android App (APK)",
-      "url": "https://github.com/sajalchaulagain/clinix/releases/latest/download/CliniX.apk",
-      "icon": "fa-download"
-    }
-  ]
-}
+    "id": 9,
+    "title": "Movie Watchlist & Movie Explorer",
+    "year": "2026",
+    "category": "React.js Project",
+    "description": "A movie-focused React project built to practice API integration, CRUD operations, routing, and responsive UI design through a watchlist and movie browsing experience.",
+    "image": "movie-explorer.jpeg",
+    "fallbackIcon": "fa-film",
+    "tags": [
+      "React.js",
+      "JavaScript",
+      "API Integration",
+      "CRUD",
+      "React Router",
+      "Responsive Design",
+      "Frontend Development"
+    ],
+    "links": [
+      {
+        "label": "Movie Watchlist",
+        "url": "https://movie-watchlist-tawny.vercel.app/",
+        "icon": "fa-external-link-alt"
+      },
+      {
+        "label": "Movie Explorer",
+        "url": "https://chaule-movies-file.netlify.app/",
+        "icon": "fa-external-link-alt"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Discover Nepal - Tourism Website UI/UX Design",
+    "year": "2026",
+    "category": "UI/UX Design",
+    "description": "A tourism website concept designed to help people discover Nepal through its districts, destinations, and experiences. I focused on creating a clean, simple, and easy-to-use experience with clear navigation and engaging visuals.",
+    "image": "my_uiux_certificate.jpg",
+    "fallbackIcon": "fa-compass",
+    "tags": [
+      "UI/UX Design",
+      "Figma",
+      "Tourism Website",
+      "User Experience",
+      "Information Architecture",
+      "Prototyping",
+      "Visual Design"
+    ],
+    "links": [
+      {
+        "label": "View Figma Design",
+        "url": "https://www.figma.com/proto/0b64s994YB79b1XR8t52zQ/Discover-Nepal?node-id=39-4&p=f&t=SmFUkPlVSVr1TWfH-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=39%3A4",
+        "icon": "fa-external-link-alt"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "CliniX - Smart Healthcare Companion App",
+    "year": "2026",
+    "category": "Flutter Mobile App",
+    "description": "Healthcare companion app with AI medicine scanning, health assistant, blood bank & donor finder, hospital locator, and medicine reminders. Built with Flutter, FastAPI, and Firebase.",
+    "image": "clinix.jpeg",
+    "fallbackIcon": "fa-heartbeat",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "FastAPI",
+      "Firebase Auth",
+      "Riverpod",
+      "REST API",
+      "OpenRouter AI",
+      "Android APK",
+      "GitHub Actions CI"
+    ],
+    "links": [
+      {
+        "label": "Download Android App (APK)",
+        "url": "https://health-app-clinix.netlify.app/CliniX.apk",
+        "icon": "fa-download"
+      }
+    ]
+  }
 ]
